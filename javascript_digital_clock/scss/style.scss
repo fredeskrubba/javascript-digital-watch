@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html, body{
+    height: 74.3%; 
+}
+#clock-container{
+    height: 100%;
+    background-color: black;
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Chakra Petch', sans-serif;
+    #clock-section{
+        color: mediumturquoise;
+        font-size: 9.5rem;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+}
